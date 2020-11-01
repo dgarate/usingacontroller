@@ -1,6 +1,6 @@
 class Car < ApplicationRecord
 
-    WHEEL_USAGE_WARNING_THRESHOLD = 0.8
+    WHEEL_USAGE_WARNING_THRESHOLD >= 0.8
 
     def full_model
         "#{make} #{model} #{year}"
